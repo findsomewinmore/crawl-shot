@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+
+var crawlShot = require('../lib/crawl-shot');
+crawlShot();
