@@ -2,12 +2,22 @@
   "name": "crawl-shot",
   "version": "1.0.0",
   "description": "Site crawler and screenshot generator",
+  "keywords": [
+    "website screenshots",
+    "site crawler"
+  ],
+  "preferGlobal": true,
   "main": "lib",
   "dependencies": {
     "htmlstrip-native": "^0.1.1",
     "minimist": "^1.1.1",
     "roboto": "^0.8.2",
     "webshot": "^0.15.4"
+  },
+  "author": "Connor McKelvey <connormckelvey@gmail.com> (http://wwww.connormckelvey.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findsomewinmore/crawl-shot"
   },
   "devDependencies": {
     "chai": "^2.3.0"
@@ -18,7 +28,5 @@
   "bin": {
     "crawl-shot": "bin/crawl-shot"
   },
-  "preferGlobal": true,
-  "author": "Connor McKelvey",
   "license": "ISC"
 }
