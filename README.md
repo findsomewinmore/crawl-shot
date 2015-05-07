@@ -8,7 +8,7 @@
 
 ####Basic Usage
 
-`crawlshot -s 'http://example.com' -a 'example.com' -d 'screenshots'`
+`crawl-shot -s 'http://example.com' -a 'example.com' -d 'screenshots'`
 The following command will crawl http://example.com (restricted to the example.com domain) and save screenshots of each page to the screenshots directory within your CWD
 
 ####Options
